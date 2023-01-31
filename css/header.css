@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+ 
+ .header{
+  width: 100%;
+  background: rgb(255, 255, 255);       
+  }
+  
+  
+  
+  .header_navbar--logo {
+    position: absolute;
+    height: 28.5px;
+    width: 91.162px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    left: 40px;
+    top: 22px;  
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  .rectangle {
+    position: absolute;
+    width: 250px;
+    height: 4px;
+    left: 1400px;
+    top: -20px;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    transition: border 0.3s ease;
+    background: #0065FC;
+  }
+  .rectangle:hover {
+    border: 1px solid blue;
+  }
+
+  .header_menu ul li {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+  .header_menu{
+    padding-top: 32px;
+    padding-left: 300px;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .Hébergement{   
+    text-decoration: none;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    color: #0065FC;
+  }
+  
+  .Activités{   
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    color: #000000;;
+  }
+
+.titre {
+  position: absolute;
+  width: 700px;
+  height: 26px;
+  left: 55px;
+  top: 126px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.83px;
+  color: #000000;
+}
+
+.paragraph{
+position: absolute;
+width: 296px;
+height: 19px;
+left: 55px;
+top: 160px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+
+
+.background_localisation{
+flex-direction: column;
+align-items: flex-start;
+margin-left: 50px;
+margin-top: 140px;
+
+height: 49px;
+width: 50px;
+border-radius: [object Object]px;
+background: #F2F2F2;
+border: 1px solid #F2F2F2;
+border-radius: 15px 0px 0px 15px;
+}
+
+.localisation_form{
+flex-direction: column;
+align-items: flex-start;
+margin-left: 20px;
+margin-top: 15px;
+size: 120%;
+}
