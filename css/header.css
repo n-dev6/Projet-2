@@ -1,7 +1,3 @@
-body {
-  width: 1400px;
-  margin: 0 auto;
-}
 
 .header {
   width: 100%;
@@ -22,7 +18,8 @@ li {
 }
 .rectangle {
   position: absolute;
-  margin-left: 16%;
+  margin-left: 8%;
+  margin-top: 0.7%;
   
   margin-bottom: 10%;
   width: 250px;
@@ -45,7 +42,7 @@ border: 1.2px solid rgb(0, 140, 255);
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 20%;
+  margin-left: 13%;
   padding-top: 5%;
   height: 19px;
   width: 113px;
@@ -59,7 +56,6 @@ border: 1.2px solid rgb(0, 140, 255);
 .Hébergement {
   text-decoration: none;
   width: 100%;
-  text-decoration: none;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
@@ -598,6 +594,7 @@ border-radius: 20px 20px 0px 0px;
   border-radius: 20px 0px 0px 20px;
 }
 .p_card2{
+  text-decoration: none;
 width: 204px;
 height: 15px;
 left: 16px;
@@ -659,7 +656,7 @@ color:#F2F2F2
     
 }
 .groupe{
-  margin-inline: -16%;
+  margin-inline: -5%;
     display: flex;
     height: 625px;
     width: 420px;
@@ -722,7 +719,7 @@ flex-grow: 0;
   position: absolute;
   width: 217px;
   height: 26px;
-  left: 1293px;
+  left: 1135px;
   top: 468px;
   font-family: 'Raleway';
   font-style: normal;
@@ -734,7 +731,7 @@ flex-grow: 0;
 
 .log_pop{
   position: absolute;
-  left: 112%;
+  left: 101%;
   right: 0%;
   top: 27.7%;
   bottom: 0%;
@@ -742,14 +739,13 @@ flex-grow: 0;
 }
 
 .main_act{
-  padding-left: 15%;
-  margin-top: 13%;
-  margin-left: 0%;
+  padding-left: 37.5%;
+  margin-top: 9%;
+  margin-left: 5.2%;
   display: flex;
   flex-direction: row;
-  margin-inline: 190px;
   justify-content: flex-end;
-  width: 1337px;
+  width: 967px;
   height: 493px;
 }
 
@@ -825,3 +821,48 @@ top: 0%;
 bottom: 0%;
 border-radius: 20px;
 }
+
+.footer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  justify-content: center;
+
+  height: 225px;
+  width: 1339px;
+  left: 48px;
+  top: 0px;
+  border-radius: 0px;
+  top: 0%;
+  bottom: -10.84%;
+  margin-left: 4%;
+  background: #F2F2F2;
+
+}
+
+.footh{
+  margin-top: -3%;
+  margin-left: 0.5%;
+}
+.footp{
+  height: 19px;
+  width: 176px;
+  left: 118px;
+  top: 86px;
+  border-radius: nullpx;
+  margin-top: -5%;
+  margin-left: 5.3%;
+    
+    
+}
+.foot_1{
+  margin: -15%;
+  margin-top: 8%;
+  margin-left: -30%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+a{text-decoration: none;}
