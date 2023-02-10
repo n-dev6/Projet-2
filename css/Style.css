@@ -233,7 +233,7 @@ input:focus {
   height: 20px;
   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 1200px;
+  font-weight: Bold,1200px;
   font-size: 17px;
   line-height: 20px;
   color: #000000;
@@ -450,6 +450,7 @@ color: #0065FC;
 }
 
 .parent_hebergement{
+  width: 50%;
   padding-left: 2.5%;
   padding-top: 5%;
   display: flex;
@@ -664,6 +665,7 @@ border-radius: 0px;
   align-content: center;
   justify-content: space-between;
   align-items: flex-end;
+  flex-wrap: wrap;
 
 }
 
@@ -737,12 +739,13 @@ flex-grow: 0;
 
 
 .acth{
-  position: absolute;
-  width: 212px;
-  height: 30.02px;
-  margin-left: 2%;
-  margin-top: 4%;
+  left: -17%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 4%;
+    top: 57%;
 }
+
 
 .card_act{
     
@@ -853,21 +856,7 @@ flex-grow: 0;
 
 a{text-decoration: none;}
 
-@media screen and (max-width:768px){
-  Main_heb{
 
-    display: flex;
-    flex-direction: column;
-  }
-
-  .parent_hebergement{
-    width: 100%;
-  }
-
-  .groupe{
-    width: 100%;
-  }
-
-}
+@media screen {
   
-
+}

@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="fr">
+    <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
     <meta charset="UTF-8">
     <title>Booki</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/Style.css">
     <script src="https://kit.fontawesome.com/9061c7d096.js" crossorigin="anonymous"></script>
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  </style>
 <body>
     <header>
     <div class="All_Header">
         <div class="header">
-            <div class="header_navbar">
+            <div class="header_navbar"></div>
             <div class="header_navbar--logo">
-            <img class = "header_navbar--logo" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\Booki.png">
+            <img class="header_navbar--logo" src="img/Booki.png" alt="Logo de Booki">
+            </div>
         </div>
                 
         <nav class = "header_menu">
          <div class="rectangle"></div>
          <ul>               
-           <li><a href="#" class ="Hébergement"> Hébergements </a></li>
-           <li><a href="#" class="Activités">Activités </a></li>    
+           <li><a href="#ancreheb" class ="Hébergement"> Hébergements </a></li>
+           <li><a href="#ancreacti" class="Activités">Activités </a></li>    
          </ul>                         
         </nav> 
         <div> 
@@ -33,21 +35,22 @@
              
         <form class ="form">
              <div class="background_localisation">
-              <div class ="localisation_form"><i class="fa-sharp fa-solid fa-location-dot"></i></a></div>
+              <div class ="localisation_form"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
              </div> 
              <div class="rectangle_form">
-              <input class="form_a"type="text" placeholder="Marseille, France">             
+              <input class="form_a" type="text" placeholder="Marseille, France">             
              </div>
-             <button class="rectangle_search"id="search_button">
-              <p class = search_button>Rechercher</p>
-             </button>             
+             <button class="rectangle_search" id="search_button">
+              <span class = search_button>Rechercher</span>
+             </button>
+                   
         </form>
         <div class="filter_bar">
             <div class="filter_eco">
                 <h2 class = "filter_p"> Filtres</h2>                       
                 <div class = "eco_rectangle">
                     <button class = "eco">                                       
-                    <div class = "eco_icon"><i class="fa-sharp fa-solid fa-money-bill-wave"></i></div>
+                    <span class = "eco_icon"><i class="fa-sharp fa-solid fa-money-bill-wave"></i></span>
                     <h2 class = "eco_p">Économique</h2> 
                     </button>
                 </div>
@@ -87,11 +90,11 @@
  
     
     <main>
-    <div class="Main_heb">
-        <div class ="parent_hebergement">
-            <h2 class="titre_hebergement Marsp">Hébergements à Marseille</h2>                                 
+    <section class="Main_heb">
+        <article class ="parent_hebergement">
+            <h2 id="ancreheb" class="titre_hebergement Marsp">Hébergements à Marseille</h2>                                 
                 <div class="card_1L">
-                    <a href="#"><img class="image_card_1" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\marcus-loke-WQJvWU_HZFo-unsplash.jpg"alt="image_card_1"></a>
+                    <a href="#"><img class="image_card_1" src="img/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="image_card_1"></a>
                     <h3 class="title_card_1">Auberge Cannebière</h3>
                     <p class="p_card">Nuit à partir de 25<b>€</b></p>
                     <div class="stars">
@@ -99,12 +102,12 @@
                         <i class="fa-solid fa-star grey-star stars-size"></i>
                         <i class="fa-solid fa-star grey-star stars-size"></i>
                         <i class="fa-solid fa-star grey-star stars-size"></i>
-                        <i class ="last_stars"><i class="fa-solid fa-star grey-star stars-size"></i></i>
+                        <div class ="last_stars"> <i class ="fa-solid fa-star grey-star stars-size"> </i> </div>
                     </div>
                 </div>
 
                 <div class="card_1L">
-                    <a href="#"><img class="image_card_1" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\fred-kleber-gTbaxaVLvsg-unsplash.jpg"alt="image_card_2"></a>
+                    <a href="#"><img class="image_card_1" src="img/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="image_card_2"></a>
                     <h3 class="title_card_1">Hôtel du port</h3>
                     <p class="p_card">Nuit à partir de 52<b>€</b></p>
                     <div class="stars">
@@ -112,12 +115,12 @@
                         <i class="fa-solid fa-star grey-star stars-size"></i>
                         <i class="fa-solid fa-star grey-star stars-size"></i>
                         <i class="fa-solid fa-star grey-star stars-size"></i>
-                        <i class ="last_stars"><i class="fa-solid fa-star grey-star stars-size"></i></i>
+                        <i class ="last_stars"> <i class ="fa-solid fa-star grey-star stars-size"></i></i>
                     </div>
                 </div>
 
                 <div class="card_1L">
-                    <a href="#"><img class="image_card_1" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\reisetopia-B8WIgxA_PFU-unsplash.jpg"alt="image_card_3"></a>
+                    <a href="#"><img class="image_card_1" src="img/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="image_card_3"></a>
                     <h3 class="title_card_1">Hôtel Les mouettes</h3>
                     <p class="p_card">Nuit à partir de 76<b>€</b></p>
                     <div class="stars">
@@ -130,7 +133,7 @@
                 </div>
 
                 <div class="card_1L">
-                    <a href="#"><img class="image_card_1" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\annie-spratt-Eg1qcIitAuA-unsplash.jpg"alt="image_card_4"></a>
+                    <a href="#"><img class="image_card_1" src="img/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="image_card_4"></a>
                     <h3 class="title_card_1">Hôtel de la mer</h3>
                     <p class="p_card">Nuit à partir de 46<b>€</b></p>
                     <div class="stars">
@@ -143,7 +146,7 @@
                 </div>
                 
                 <div class="card_1L">
-                    <a href="#"><img class="image_card_1" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\nicate-lee-kT-ZyaiwBe0-unsplash.jpg"alt="image_card_5"></a>
+                    <a href="#"><img class="image_card_1" src="img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"alt="image_card_5"></a>
                     <h3 class="title_card_1">Auberge Le Panier</h3>
                     <p class="p_card">Nuit à partir de 23<b>€</b></p>
                         <div class="stars">
@@ -156,7 +159,7 @@
                 </div>
 
                 <div class="card_1L">
-                    <a href="#"><img class="image_card_2" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\febrian-zakaria-M6S1WvfW68A-unsplash.jpg"alt="image_card_6"></a>
+                    <a href="#"><img class="image_card_2" src="img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="image_card_6"></a>
                     <h3 class="title_card_1">Hôtel Chez Amina</h3>
                     <p class="p_card">Nuit à partir de 96<b>€</b></p>
                         <div class="stars">
@@ -167,15 +170,16 @@
                             <i class="last_stars"class="fa-solid fa-star grey-star stars-size"></i>
                         </div>
                 </div>
-            </div>
-                           <h2 class="titre_hebergement Plusp">Afficher plus</h2>
+                <h2 id="ancreheb" class="titre_hebergement Plusp">Afficher plus</h2>
+        </article>
+                          
                     
-        <div class="groupe">            
+        <article class="groupe">            
             <p class="titre_hebergement Pop2"> Les plus populaires</p>
             <div class="log_pop"><i class="fa-solid fa-chart-line"></i></div>
                     <div class="card_2L">              
                         <h3 class="title_card_2">Hôtel Le soleil du matin</h3>
-                        <a href="#"><img class="image_card_3h" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"alt="image_card_7"></a>                    
+                        <a href="#"><img class="image_card_3h" src="img/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="image_card_7"></a>                    
                         <p class="p_cardv">Nuit à partir de 128<b>€</b></p>
                         <div class="stars_v">
                             <i class="fa-solid fa-star grey-star stars-size"></i>
@@ -188,7 +192,7 @@
                   
                 <div class="card_2L">              
                     <h3 class="title_card_2">Chambres d’hôtes Au cœur de l’eau</h3>
-                    <a href="#"><img class="image_card_3h" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\aw-creative-VGs8z60yT2c-unsplash.jpg"alt="image_card_8"></a>                    
+                    <a href="#"><img class="image_card_3h" src="img/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="image_card_8"></a>                    
                     <p class="p_cardv">Nuit à partir de 71€<b>€</b></p>
                     <div class="stars_v">
                         <i class="fa-solid fa-star grey-star stars-size"></i>
@@ -201,7 +205,7 @@
 
                 <div class="card_2L">              
                     <h3 class="title_card_2">Hôtel Bleu et Blanc</h3>
-                    <a href="#"><img class="image_card_3h" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\febrian-zakaria-sjvU0THccQA-unsplash.jpg"alt="image_card_9"></a>                    
+                    <a href="#"><img class="image_card_3h" src="img/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="image_card_9"></a>                    
                     <p class="p_cardv reduced">Nuit à partir de 68€<b>€</b></p>
                     <div class="stars_v">
                         <i class="fa-solid fa-star grey-star stars-size"></i>
@@ -211,36 +215,38 @@
                         <i class ="last_starsv"><i class="fa-solid fa-star grey-star stars-size"></i></i>
                    </div>
                 </div>                           
-            </div>
-        </div>
-        <h3 class="titre_hebergement acth">Activités à Marseille</h3>
+            
+        </article>
+    </section>
+        
         <div class="main_act">
-                
-                <div class="card_act">                    
+            <h3 class="titre_hebergement acth">Activités à Marseille</h3>
+                <div id="ancreheb" class="card_act">                    
                     <div class="rec_act3"></div>  
                     <h3 class="title_card3">Vieux-Port</h3>                
-                    <a href="#"><img class="image_card_act" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\Activités\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"alt="image_card_10"></a>                    
+                    <a href="#"><img class="image_card_act" src="img/Activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="image_card_10"></a>                    
                 </div>
 
                 <div class="card_act">                    
                     <div class="rec_act3"></div>  
                     <h3 class="title_card3">Fort de Pomègues</h3>                
-                    <a href="#"><img class="image_card_act" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\Activités\paul-hermann-QFTrLdQIRhI-unsplash.jpg"alt="image_card_11"></a>                    
+                    <a href="#"><img class="image_card_act" src="img/Activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="image_card_11"></a>                    
                 </div>
 
                 <div class="card_act">                    
                     <div class="rec_act3"></div>  
                     <h3 class="title_card3">Parc national des Calanques</h3>                
-                    <a href="#"><img class="image_card_act" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\Activités\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"alt="image_card_12"></a>                    
+                    <a href="#"><img class="image_card_act" src="img/Activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="image_card_12"></a>                    
                 </div>
 
                 <div class="card_act">                    
                     <div class="rec_act3"></div>  
                     <h3 class="title_card3">Notre-Dame-de-la-Garde</h3>                
-                    <a href="#"><img class="image_card_act" src="C:\Users\noryb\OneDrive\Desktop\Titre Pro Openclassroom\Livrable\Projet 2\img\Activités\florian-wehde-xW9e8gdotxI-unsplash.jpg"alt="image_card_13"></a>                    
+                    <a href="#"><img class="image_card_act" src="img/Activités/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="image_card_13"></a>                    
                 </div>
-
-        </div>            
+        </div>
+         
+               
     </main>
     
     <footer>
