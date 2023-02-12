@@ -154,6 +154,26 @@ border: 1.2px solid rgb(0, 140, 255);
   color: #000000;
 }
 .rectangle_search{
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    width: 132px;
+    height: 49px;
+    left: 341px;
+    top: 213px;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -170,21 +190,7 @@ border: 1.2px solid rgb(0, 140, 255);
 .rectangle_search:hover{
   background: #0065fccb;
 }
-.search_button{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 10px;
-  width: 100px;
-  height: 21px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #FFFFFF;
-}
+
 .form{
   margin-top: 20px;
 }
@@ -195,6 +201,9 @@ input:focus {
   outline:  none;
 }
 .filter_bar{ 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin-top: 15px;
   margin-left: -5px;
   position: absolute;
@@ -215,204 +224,135 @@ input:focus {
   display:flex;
 
 }
-.eco_icon{
-  height: 22px;
-  width: 22px;
-  height: 22px;
-  top: 13.04%;
-  bottom: 13.04%;
+.filter_title{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+}
+.filter_option button .fa-sharp {
+  margin-left: 6%;
   color: #0065FC;
-  padding-right: 10px;
-  padding-top: 10px;
+  }
+
+.filter_option .fam_button {
+  width: 136px;
+  height: 52px;
+  padding-left: 12%;
 }
-.eco_p{
+
+.filter_option .eco_button {
+ width: 175px;
+ height: 48px;
+}
+
+.filter_option .rom_button {
+ width: 172px;
+ height: 48px;
+
+}
+  
+.filter_option .pet_button {
+  width: 226px;
+height: 50px;
+
+ }
+.filter_option button {
+  background: none;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 103px;
-  height: 20px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: Bold,1200px;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
-  margin-right: 5px;
-}
-.eco{
-  height: 48px;
-  width: 175px;
+
   left: 148px;
   top: 280px;
-  display: flex;  
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding: 4px 20px;
   border: 2px solid #D9D9D9;
   border-radius: 25px;
-  margin-left: 30px;
-  background-color: transparent;
-}
-.eco:hover{
-  background: #DEEBFF;
-}
-.filter_eco{
-  display: flex;
-  flex-direction: row;
-}
-.eco_rectangle{
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  margin: 0 10px;
 }
-.fam_rectangle{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+
+.filter_option button:hover{
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #DEEBFF;
+
 }
-.fam_icon{
-  height: 23px;
-  width: 20px;
-  left: 4px;
-  border-radius: 0px;
-  color: #0065FC;
-  padding-right: 10px;
-  padding-top: 10px;
+
+.filter_label h1{
+  position: absolute;
+  margin-left:50%;
 }
-.fam_p{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 103px;
-  height: 20px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 1200px;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
-  margin-right: 5px;
-}
-.fam{
-  height: 48px;
-  width: 136px;
-  left: 366px;
-  top: 280px;
-  display: flex;  
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding: 4px 20px;
-  border: 2px solid #D9D9D9;
-  border-radius: 25px;
-  margin-left: 40px;
-  background-color: transparent;
-}
-.fam:hover{
-  background: #DEEBFF;
-}
-.rom_rectangle{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.rom_icon{
-  height: 23px;
-  width: 20px;
-  left: 4px;
-  top: 0px;
-  border-radius: 0px;
-  color: #0065FC;
-  padding-right: 10px;
-  padding-top: 10px;
-}
-.rom_p{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 103px;
-  height: 20px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 1200px;
-  font-size: 17px;
-  line-height: 20px;
-  color: #000000;
-  margin-right: 5px;
-}
-.rom{
-  height: 48px;
-  width: 172px;
-  left: 542px;
-  top: 280px;
-  display: flex;  
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding: 4px 20px;
-  border: 2px solid #D9D9D9;
-  border-radius: 25px;
-  margin-left: 40px;
-  background-color: transparent;
-  
-}
-.rom:hover{
-  background: #DEEBFF;
-}
-.pet_rectangle{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.pet_icon{
-  height: 23px;
-  width: 20px;
-  left: 4px;
-  border-radius: 0px;
-  color: #0065FC;
-  padding-right: 10px;
-  padding-top: 10px;
-}
-.pet_p{
-  width: 226px;
-  left: 52px;
-  top: 29.17%;
-  bottom: 29.17%;
+
+.filter_label {
+  pointer-events: none;
+  width: 500px;
+  position: absolute;
+  margin-left: 55px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 20px;
   color: #000000;
+  margin-top: -4%;
 }
-.pet{
-  height: 50px;
-  width: 226px;
-  display: flex;  
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding: 4px 20px;
-  border: 2px solid #D9D9D9;
-  border-radius: 25px;
-  margin-left: 40px;
-  background-color: transparent;
+
+
+.fa-sharp {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
 }
-.pet:hover{
-background: #DEEBFF;
+
+button.filter {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 20px;
+
+position: absolute;
+width: 175px;
+height: 48px;
+left: 148px;
+top: 280px;
+
+/* Grey/Tint2 */
+
+border: 2px solid #D9D9D9;
+border-radius: 25px;
+}
+
+button.filter:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+button.eco {
+  background-color: green;
+  color: white;
+}
+
+button.fam {
+  background-color: blue;
+  color: white;
+}
+
+button.rom {
+  background-color: pink;
+  color: white;
+}
+
+button.pet {
+  background-color: brown;
+  color: white;
 }
 .info_bar{
-  margin-top: 30px;
+  position: absolute;
+  margin-top: 139px;
   display:flex;
   flex-direction:row;
   align-items:center;
@@ -476,7 +416,7 @@ text-align: left;
 
 .Marsp{
   position: absolute;
-  margin-bottom: 43%;
+  margin-bottom: 39.5%;
   margin-left: 2%;
 
 }
@@ -580,7 +520,7 @@ border-radius: 20px 20px 0px 0px;
   border-radius: 20px 0px 0px 20px;
 }
 .p_card2{
-  text-decoration: none;
+text-decoration: none;
 width: 204px;
 height: 15px;
 left: 16px;
@@ -857,6 +797,19 @@ flex-grow: 0;
 a{text-decoration: none;}
 
 
-@media screen {
-  
+@media only screen and (max-width: 768px) {
+  /* Les styles définis ici ne s'appliqueront qu'aux écrans inférieurs à 768 pixels */
+
+  .Main_heb{
+    flex-direction: column;
+  }
+  .groupe{
+   width: 100%;
+   height: 50%;
+   flex-direction: row;
+  }
+  .card_2L{
+    flex-direction: row;
+  }
+    
 }
