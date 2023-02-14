@@ -14,10 +14,11 @@
     <script src="https://kit.fontawesome.com/9061c7d096.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="wrapper">
+
     <header>
         <div class="All_Header">
             <div class="header">
-                <div class="header_navbar"></div>
                 <div class="header_navbar--logo">
                     <img class="header_navbar--logo" src="img/Booki.png" alt="Logo de Booki">
                 </div>
@@ -31,22 +32,22 @@
                 </ul>
             </nav>
 
-            <div>
+            <div class ="top_p">
                 <h1 class="titre">Trouvez votre hébergement pour des vacances de rêve </h1>
                 <p class="paragraph"> En plein centre-ville ou en pleine nature</p>
             </div>
         </div>
 
-            <form class="form">
-                <div class="background_localisation">
-                    <div class="localisation_form"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
-                </div>
-                <div class="rectangle_form">
-                    <input class="form_a" type="text" placeholder="Marseille, France">
-                </div>
-                <button class="rectangle_search" id="search_button">Rechercher</button>
-            
+        <form class="form">
+            <div class="background_localisation">
+                <div class="localisation_form"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+            </div>
 
+            <div class="rectangle_form">
+                <input class="form_a" type="text" placeholder="Marseille, France">
+            </div>
+            <button class="rectangle_search" id="search_button">Rechercher</button>
+            
             <div class="filter_bar">
                 <!-- filter bar -->
                 <h2 class="filter_title">Filtres</h2>
@@ -91,6 +92,7 @@
 
     <main>
         <section class="Main_heb">
+            <!-- Main-Content -->
             <h2 class="titre_hebergement Marsp">Hébergements à Marseille</h2>
             <article class="parent_hebergement">
                 
@@ -234,28 +236,28 @@
             <div class="card_act">
                 <div class="rec_act3"></div>
                 <h3 class="title_card3">Vieux-Port</h3>
-                <a href="#"><img class="image_card_act" src="img/Activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                <a href="#"><img class="image_card_act" src="img/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                         alt="image_card_10"></a>
             </div>
 
             <div class="card_act">
                 <div class="rec_act3"></div>
                 <h3 class="title_card3">Fort de Pomègues</h3>
-                <a href="#"><img class="image_card_act" src="img/Activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                <a href="#"><img class="image_card_act" src="img/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                         alt="image_card_11"></a>
             </div>
 
             <div class="card_act">
                 <div class="rec_act3"></div>
                 <h3 class="title_card3">Parc national des Calanques</h3>
-                <a href="#"><img class="image_card_act" src="img/Activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                <a href="#"><img class="image_card_act" src="img/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                         alt="image_card_12"></a>
             </div>
 
             <div class="card_act">
                 <div class="rec_act3"></div>
                 <h3 class="title_card3">Notre-Dame-de-la-Garde</h3>
-                <a href="#"><img class="image_card_act" src="img/Activités/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                <a href="#"><img class="image_card_act" src="img/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                         alt="image_card_13"></a>
             </div>
         </div>
@@ -267,6 +269,7 @@
         <div class="footer">
             <div class="foot_1">
                 <h3 class="title_card3 footh">À propos</h3>
+                <!-- Remplacer par ul-li-->
                 <a href="#">
                     <p class="p_cardv footp">Fonctionnement du site</p>
                 </a>
@@ -295,7 +298,7 @@
 
         </div>
     </footer>
-
+</div>
 </body>
 
 </html>

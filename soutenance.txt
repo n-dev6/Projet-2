@@ -2,7 +2,7 @@
 
 -expliquer comment sont calculé les dates clés
 -ne marquer que les points clés
--temps de travail + tant de recherche  pour les dates. expliquer
+-temps de travail + temps de recherche pour les dates expliqué
 - bien introduire et se présenter.
 -bien conclure du style j’ai presenté mes différents points avez vous des questions.
 -retirer le texte et mettre des points clés sur les slides.
