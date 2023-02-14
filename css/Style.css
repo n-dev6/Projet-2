@@ -47,7 +47,7 @@ border: 1.2px solid rgb(0, 140, 255);
   margin-top: -9.5%;
 }
 .top_p{
-  margin-top: 10%;
+  margin-top: 8%;
 }
 .Hébergement {
   text-decoration: none;
@@ -95,10 +95,11 @@ border: 1.2px solid rgb(0, 140, 255);
   line-height: 19px;
   color: #000000;
   }
-.background_localisation{
 
-  margin-left: 4%;
-  margin-top: 7%;
+.background_localisation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 49px;
   width: 50px;
   background: #F2F2F2;
@@ -106,9 +107,7 @@ border: 1.2px solid rgb(0, 140, 255);
   border-radius: 15px 0px 0px 15px;
 }
 .rectangle_form{
-
-  margin-left: 4%;
-  margin-top: 7%;
+  margin-left: -2%;
   height: 49px;
   width: 332px;
   border-radius: 15px;
@@ -117,10 +116,9 @@ border: 1.2px solid rgb(0, 140, 255);
 }
 .localisation_form{
 
-  margin-left: 18px;
-  margin-top: 16px;
 }
 .form_a{ 
+  margin-left: 2%;
   border:none;
   display: flex;
   flex-direction: row;
@@ -137,6 +135,8 @@ border: 1.2px solid rgb(0, 140, 255);
 }
 
 .rectangle_search{
+  margin-top: 0.1%;
+  margin-left: -2%;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -147,19 +147,6 @@ border: 1.2px solid rgb(0, 140, 255);
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
-  width: 132px;
-  height: 49px;
-  left: 341px;
-  top: 213px;
-  background: #0065FC;
-  border: 1px solid #0065FC;
-  border-radius: 0px 15px 15px 0px;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
   width: 132px;
   height: 49px;
   left: 341px;
@@ -174,7 +161,11 @@ border: 1.2px solid rgb(0, 140, 255);
 }
 
 .form{
-  margin-top: 20px;
+row-gap: -100px;
+flex-direction: row;
+display: flex;
+margin-top: 2%;
+
 }
 
 input::-webkit-input-placeholder {
@@ -186,11 +177,10 @@ input:focus {
 }
 
 .filter_bar{ 
+  margin-top: 3%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 15px;
-  margin-left: -5px;
   width: 914px;
   height: 50px;
   left: 64px;
@@ -217,6 +207,11 @@ text-align: center;
 
 color: #000000;
 }
+
+.filter_option{
+  margin-right: -40%;
+
+}
 .filter_option button .fa-sharp {
   margin-left: 6%;
   color: #0065FC;
@@ -225,10 +220,11 @@ color: #000000;
 .filter_option .fam_button {
   width: 136px;
   height: 52px;
-  padding-left: 12%;
+
 }
 
 .filter_option .eco_button {
+
  width: 175px;
  height: 48px;
 }
@@ -236,10 +232,14 @@ color: #000000;
 .filter_option .rom_button {
  width: 172px;
  height: 48px;
-
 }
+.romantique{
+  margin-left: -3%;
+}
+
   
 .filter_option .pet_button {
+  margin-right: 10%;
   width: 226px;
 height: 50px;
 
@@ -248,7 +248,6 @@ height: 50px;
   background: none;
   box-sizing: border-box;
   display: flex;
-
   left: 148px;
   top: 280px;
   border: 2px solid #D9D9D9;
@@ -266,15 +265,10 @@ background: #DEEBFF;
 
 }
 
-.filter_label h1{
-  position: absolute;
-  margin-left:50%;
-}
 
 .filter_label {
   pointer-events: none;
   width: 500px;
-  position: absolute;
   margin-left: 55px;
   font-family: 'Raleway';
   font-style: normal;
@@ -282,7 +276,7 @@ background: #DEEBFF;
   font-size: 17px;
   line-height: 20px;
   color: #000000;
-  margin-top: -4%;
+  margin-top: -6.2%;
 }
 
 
