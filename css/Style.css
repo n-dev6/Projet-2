@@ -114,9 +114,7 @@ border: 1.2px solid rgb(0, 140, 255);
   border: 1px solid #F2F2F2;
   border-radius: 15px;
 }
-.localisation_form{
 
-}
 .form_a{ 
   margin-left: 2%;
   border:none;
@@ -363,15 +361,13 @@ button.pet {
 }
 
 .parent_hebergement{
-  width: 50%;
+  width: 80%;
   padding-left: 2.5%;
   padding-top: 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background: #F2F2F2;
-  height: 555px;
-  width: 880px;
   border-radius: 20px;
   align-items: center;
   align-content: flex-start;
@@ -396,24 +392,24 @@ button.pet {
 .card_1L{
   margin: 2%;
   height: 199px;
-  width: 246px;
+  width: 29%;
   border-radius: 20px;
   background: #FFFFFF;
   border-radius: 20px;
 }
 .image_card_1{
   height: 124px;
-  width: 246px;
+  width: 100%;
   box-sizing: border-box;
   bottom: 37.69%;
   border: 5px solid #FFFFFF;
   border-radius: 20px 20px 0px 0px;
 }
 .title_card_1{
-  margin-top: 0px;
+  margin-left: 9%;
   margin-left: 16px;
-  width: 204px;
-  height: 15px;
+  width: 100%;
+    height: 5%;
   left: 16px;
   top: calc(50% - 15px/2 + 36px);
   font-family: 'Raleway';
@@ -425,8 +421,8 @@ button.pet {
   font-weight: bold
 }
 .p_card{
-  width: 204px;
-  height: 15px;
+  width: 100%;
+  height: 8%;
   left: 16px;
   top: calc(50% - 15px/2 + 60px);
   font-family: 'Raleway';
@@ -439,8 +435,9 @@ button.pet {
   margin-top: -9px;
 }
 .stars{
-  margin-left: 16px;
-  margin-top: -8px;
+  width: 100%;
+  margin-left: 7%;
+  margin-top: 0%;
   color:#0065FC;
   
 
@@ -452,7 +449,7 @@ button.pet {
 .image_card_2{
   object-fit: cover;
   height: 124px;
-  width: 246px;
+  width: 100%;
   box-sizing: border-box;
   bottom: 37.69%;
   border: 5px solid #FFFFFF;
@@ -512,8 +509,9 @@ button.pet {
   flex-grow: 0;
 }
 .Pop2{
-  margin-bottom:-5%;
-  margin-right: 28%;
+  margin-bottom: -22%;
+  margin-left: 10%;
+  position: relative;
 }
 .p_cardv{
   margin-left: 45%;
@@ -541,36 +539,35 @@ button.pet {
 }
 
 .groupe{
-  height: 590px;
-  width: 420px;
-  background: #F2F2F2;
-border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-content: space-between;
+    padding-left: 30%;
+    padding-top: 23%;
+    width: 80%;
+    background: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
    
  
 }
 
 .Main_heb{
-  margin-top: 10%;
-  left: 50px;
-  top: 426px;
+  margin-top: 8%;
   border-radius: 0px;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
   align-items: flex-end;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
 }
 
 .card_2L
 { display:flex;
+  
   flex-direction: column;
   margin-bottom: 7%;
   height: 148px;
@@ -746,24 +743,41 @@ a{text-decoration: none;}
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .header{
+    margin-left: 5%;
+  }
   .info_bar {
     margin-left: 1%;
   }
 .header_menu{
+  position: relative;
+  padding: inherit;
+  padding-top: 3%;
   width: 40%;
-  margin-left: 70%;
+  margin-left: 60%;
 }
-
-.All_Header
 
 .Hébergement{
   color: black;
 }
 .rectangle{
-  color: none;
+  display: none;
+}
+.Main_heb{
+  padding: inherit;
+}
+.Marsp{
+  margin-top: 20%;
+  width: 100%;
+}
+.Plusp{
+  margin-left: -140%;
 }
   .groupe {
-    width: 110%;
+    margin-left: 8%;
+  
+    padding: inherit;
+    width: 100%;
     gap: 3%;
     height: 30%;
     display: flex;
@@ -775,10 +789,11 @@ a{text-decoration: none;}
   }
   
   .card_2L {
-        margin-top: 4%;
-        width: 29%;
-        margin-bottom: 45px;
-    }
+    margin-top: 8%;
+    width: 29%;
+    margin-bottom: 8%;
+}
+    
   
   
   .title_card_2 {
@@ -797,6 +812,7 @@ a{text-decoration: none;}
     margin-top: -24%;
     width: 245px;
     height: 38px;
+    font-size: 12px;
   }
   .reduced {
     margin-top: -32%;
@@ -844,10 +860,27 @@ a{text-decoration: none;}
 }
 .Marsp
 {
-  margin-left: 10%;
+  margin-left: 20%;
 }
 .parent_hebergement {
-  width: 100%;
-  margin-left: 2%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 2.5%;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+  flex-direction: column;
+  display: flex;
+  padding-top: 30%;
+  margin-top: -25%;
 }
+
+
+.Pop2{
+  padding-bottom: 7%;
+    margin-left: 12%;
+}
+.conteneur_pop{
+  margin-top: 5%;
+}
+
 }
