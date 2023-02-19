@@ -391,7 +391,7 @@ button.pet {
 }
 .card_1L{
   margin: 2%;
-  height: 199px;
+  height: 10%;
   width: 29%;
   border-radius: 20px;
   background: #FFFFFF;
@@ -406,10 +406,10 @@ button.pet {
   border-radius: 20px 20px 0px 0px;
 }
 .title_card_1{
-  margin-left: 9%;
-  margin-left: 16px;
+  margin-top: -2%;
+  margin-left: 8%;
   width: 100%;
-    height: 5%;
+  height: 5%;
   left: 16px;
   top: calc(50% - 15px/2 + 36px);
   font-family: 'Raleway';
@@ -421,7 +421,7 @@ button.pet {
   font-weight: bold
 }
 .p_card{
-  width: 100%;
+  width: 70%;
   height: 8%;
   left: 16px;
   top: calc(50% - 15px/2 + 60px);
@@ -431,13 +431,13 @@ button.pet {
   font-size: 14px;
   line-height: 16px;
   color: #000000;
-  margin-left: 16px;
-  margin-top: -9px;
+  margin-left: 7.5%;
+    margin-top: 1%;
 }
 .stars{
   width: 100%;
   margin-left: 7%;
-  margin-top: 0%;
+  margin-top: -2%;
   color:#0065FC;
   
 
@@ -470,10 +470,8 @@ button.pet {
 }
 
 .image_card_3h{
-  margin-top: -20%;
   object-fit: cover;
-  height: 144px;
-  width: 137px;
+width: 30%;
   box-sizing: border-box;
   border: 5px solid #FFFFFF;
   border-radius: 20px 0px 0px 20px;
@@ -496,8 +494,7 @@ button.pet {
 .title_card_2
 {
   margin-left: 45%;
-  width: 169px;
-  height: 38px;
+  width: 100%;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -514,10 +511,7 @@ button.pet {
   position: relative;
 }
 .p_cardv{
-  margin-left: 45%;
-  margin-top: -20%;
-  width: 169px;
-  height: 15px;
+  width: 100%;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -539,9 +533,8 @@ button.pet {
 }
 
 .groupe{
-    padding-left: 30%;
-    padding-top: 23%;
-    width: 80%;
+  padding-left: 10%;
+    width: 100%;
     background: #F2F2F2;
     border-radius: 20px;
     display: flex;
@@ -567,11 +560,9 @@ button.pet {
 
 .card_2L
 { display:flex;
-  
+  margin: 4.3%;
   flex-direction: column;
-  margin-bottom: 7%;
-  height: 148px;
-  width: 343px;
+  width: 80%;
   border-radius: 20px;
   background: #FFFFFF;
   border-radius: 20px;
@@ -804,8 +795,7 @@ a{text-decoration: none;}
   .image_card_3h {
     margin-top: -20%;
     object-fit: cover;
-    height: 133px;
-    width: 45%;
+    width: 30%;
   }
   .p_cardv {
     margin-left: 45%;
@@ -848,7 +838,7 @@ a{text-decoration: none;}
 }
 
 .card_1L {
-  height: 193px;
+
   width: 29%;
 }
 
