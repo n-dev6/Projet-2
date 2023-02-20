@@ -670,9 +670,6 @@ button.pet {
 .card_act{
   border-top-left-radius: 30px;
   background-color: #ffffff;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
