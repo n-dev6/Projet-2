@@ -187,14 +187,10 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 391px;
+    width: 100%;
     height: 50px;
-    left: 64px;
-    top: 280px;
 }
-.filter_option{
 
-}
 
 .filter_p{ 
   left: 62px;
@@ -225,23 +221,30 @@ color: #000000;
   }
 
 .filter_option .fam_button {
-  width: 136px;
-  height: 52px;
+  margin-left: -2%;
+  width :144px;
+  height: 48px;
 
 }
+.filter_option .pet_button {
+  margin-right: 10%;
+  width: 194px;
+height: 50px;
+ }
 
 .filter_option .eco_button {
 
- width: 175px;
+ width: 154px;
  height: 48px;
 }
 
 .filter_option .rom_button {
+  margin-left: -1%;
  width: 172px;
  height: 48px;
 }
 .romantique{
-  margin-left: -3%;
+  margin-left: -2%;
 }
 .filter_label{
    
@@ -260,12 +263,7 @@ color: #000000;
 }
 
   
-.filter_option .pet_button {
-  margin-right: 10%;
-  width: 226px;
-height: 50px;
 
- }
 .filter_option button {
   background: none;
   box-sizing: border-box;
@@ -446,10 +444,8 @@ button.pet {
 }
 .stars{
   width: 100%;
-  margin-left: 7%;
-  margin-top: -2%;
   color:#0065FC;
-  margin-left: 10%;
+  margin-left: 6%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -485,6 +481,14 @@ button.pet {
   border-radius: 20px;
   background: #F2F2F2;
   border-radius: 20px;
+}
+.image_card_3h_first{
+  object-fit: cover;
+  height: 144px;
+  width: 137px;
+  box-sizing: border-box;
+  border: 5px solid #FFFFFF;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .image_card_3h{
@@ -624,8 +628,7 @@ button.pet {
 }
 
 .log_pop{
-  width: 100%;
-  margin-right: 21%;
+  width: 95%;
   padding-top: 5%;
   color: #0065FC;
   display: flex;
@@ -645,7 +648,7 @@ button.pet {
 
 .main_act{
   margin-top: 3%;
-  width: 80%;
+  width: 100%;
   gap: 5%;
   display: flex;
   flex-direction: row;
@@ -670,6 +673,7 @@ button.pet {
 }
 
 .title_card3{
+  margin-left: 3%;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -687,12 +691,12 @@ button.pet {
   background: #FFFFFF;
   border-radius: 0px 0px 20px 20px;
   height: 56px;
-  width: 302px;
 
   
 }
 .card_act{
-  width: 100%;
+  flex:1;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 .image_card_act{
   margin-top: -15%;
@@ -772,7 +776,7 @@ a{text-decoration: none;}
   padding: inherit;
   padding-top: 3%;
   width: 40%;
-  margin-left: 60%;
+  margin-left: 55%;
 }
 
 .Hébergement{
@@ -784,7 +788,10 @@ a{text-decoration: none;}
 }
 .Main_heb{
   flex-wrap: wrap;
-  padding: inherit
+
+}
+.Head{
+  margin-left: 5%;
 }
 .Marsp{
   margin-top: 20%;
@@ -802,22 +809,27 @@ a{text-decoration: none;}
   padding-bottom: 5%;
 }
 .conteneur_hebergement{
+  margin-left: 4%;
   margin-top: -15%;
-  margin-left: 2%;
-  width: 100%
+  width: 95%;
 }
 .conteneur_pop{
   margin-top: 5%;
   width: 95%;
 }
 .groupe{
-  margin-left: -10%;
-  margin-top: 10%;
+  margin-bottom: 5%;
   flex-direction: row;
   align-items: center;
 
 }
+.p_cardv{
+  font-size: 12px;
+}
+
+
 .image_card_3h{
+  width: 100%;
 
 }
 .log_pop{
@@ -827,8 +839,15 @@ a{text-decoration: none;}
 }
 
 .title_card_2{
-  font-size: 12px;
+  width: 70%;
+  font-size: 14px;
 }
+.log_pop {
+  width: 99%;
+
+  margin-top: 5%;
+}
+/* modifier la taille de l'image */
 .card_2L{
   height: 1%;
   border-radius: 20px;
@@ -841,19 +860,20 @@ a{text-decoration: none;}
   flex-direction: row;
 }
 .rec_act3{
-    position: relative;
-    margin-bottom: 10%;
-    margin-top: -15%;
-    background: #FFFFFF;
-    border-radius: 0px 0px 20px 20px;
-    height: 56px;
-    width: 171px;
+  width: 80%;
+    margin-top: -25%;
+
+  
 }
 .title_card3{
-
-    width: 155px;
+  width: 100%;
+  margin-left: 3%;
 }
 
+.reduced{
+    width: 85%;
+    margin-bottom: 25%;
+}
 .image_card_act {
   margin-top: -15%;
   object-fit: cover;
@@ -869,12 +889,12 @@ a{text-decoration: none;}
   border-radius: 20px;
 }
 .card_act {
-  width: 80%;
+  flex: 1;
 }
 .main_act {
   margin-top: 3%;
-  margin-left: 8%;
-  width: 30%;
+  margin-left: 4%;
+  width: 95%;
   gap: 5%;
   display: flex;
   flex-direction: row;
@@ -895,7 +915,7 @@ a{text-decoration: none;}
   border-radius: 0px 0px 20px 20px
 }
 .footer {
- 
+  margin-left: 0.5%;
   height: 232px;
   width: 100%;
 }
