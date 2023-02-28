@@ -330,8 +330,7 @@ button.pet {
 }
 
 .info_bar{
-  position: absolute;
-  margin-top: 139px;
+  margin-bottom:-5%;
   display:flex;
   flex-direction:row;
   align-items:center;
@@ -364,7 +363,6 @@ button.pet {
 }
 
 .logo_infobar{
-  position: absolute;
   margin-top: -10px;
   margin-inline: -3px;
   color: #0065FC;
@@ -692,7 +690,7 @@ button.pet {
 .rec_act3{
   position: relative;
   margin-bottom: 10%;
-  margin-top: -15%;
+  margin-top: -14%;
   background: #FFFFFF;
   border-radius: 0px 0px 20px 20px;
   height: 56px;
@@ -732,7 +730,6 @@ button.pet {
   top: 0%;
   bottom: -10.84%;
   background: #F2F2F2;
-
 }
 
 .footh{
@@ -775,7 +772,7 @@ a{text-decoration: none;}
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
 
 .info_bar {
   margin-left: 1%;
@@ -795,6 +792,7 @@ a{text-decoration: none;}
   display: none;
 }
 .Main_heb{
+  margin-left: 5%;
   padding:0;
   flex-wrap: wrap;
 }
@@ -1014,13 +1012,14 @@ a{text-decoration: none;}
   gap: 4%;
   margin-left: 7%;
   display: flex;
-  width: 100%;
+  width: 94%;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
 }
 .filter_bar {
+  margin-bottom: 20%;
   margin-left: 5%;
   width: 80%;
   flex-direction: column;
@@ -1058,6 +1057,7 @@ a{text-decoration: none;}
   margin-left: 0;
 }
 .info_bar{
+  margin-bottom: -30%;
   position: relative;
   margin-top: 3%;
   display: flex;
@@ -1109,7 +1109,7 @@ a{text-decoration: none;}
   
 }
 .footer{
-  height: 354px;
+  height: 386px;
 }
 .image_card_act{
   
@@ -1132,5 +1132,7 @@ a{text-decoration: none;}
   font-weight: 700;
   font-size: 16px;
 }
-
+.log_pop{
+  margin-top: 3%;
+}
 }
