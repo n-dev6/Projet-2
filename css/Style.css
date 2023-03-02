@@ -84,8 +84,7 @@ body, html{
 }
 
 .titre {
-  width: 700px;
-  height: 26px;
+  width: 100%;
   left: 55px;
   top: 126px;
   font-family: 'Raleway';
@@ -113,8 +112,7 @@ body, html{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 49px;
-  width: 50px;
+  width: 10%;
   background: #F2F2F2;
   border: 1px solid #F2F2F2;
   border-radius: 15px 0px 0px 15px;
@@ -194,7 +192,6 @@ input:focus {
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    height: 50px;
 }
 
 
@@ -338,7 +335,6 @@ button.pet {
 }
 
 .icon_infobar{
-  margin-left: -10px;
   display:flex;
   padding: 20px;
   box-sizing: border-box;
@@ -553,6 +549,16 @@ button.pet {
 }
 
 .stars_v{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 20%;
+  margin-bottom: 7px;
+  color: #0065FC;
+}
+
+.stars_v2{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -807,6 +813,7 @@ a{text-decoration: none;}
   margin-left: -140%;
 }
 .ul_header {
+  
   margin-top: 3%;
 
 }
@@ -934,6 +941,23 @@ a{text-decoration: none;}
   margin-left: 80%;
 
 }
+
+.Pop2{
+  margin-left: 5%;
+}
+.acth{
+  margin-top: 20%;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.background_localisation{
+  width: 20%;
+}
+.header_menu ul li{
+
+    margin-left: 5%;
+}
 .wrapper{
   position: relative;
 }
@@ -965,8 +989,9 @@ a{text-decoration: none;}
   margin-left: 20%;
   margin-top: 2%;
   margin: 0;
-  flex-direction: column-reverse;
+  flex-direction: row;
 }
+
 .rectangle{
   display: none;
 }
@@ -980,8 +1005,8 @@ a{text-decoration: none;}
   margin: 0;
 }
 .ul_header {
-  margin-left: -10%;
-  width: 100%;  
+  margin-top: 5%;
+  width: 80%;
   display: flex;
   list-style: none;
   padding: 0;
@@ -991,8 +1016,6 @@ a{text-decoration: none;}
   justify-content: space-around;
 }
 .form{
-  margin-top:3%;
-  margin-left:3%;
   justify-content: center;
   width: 95%;
 }
@@ -1009,19 +1032,17 @@ a{text-decoration: none;}
   width: 100%;
 }
 .filter_div{
-  gap: 4%;
-  margin-left: 7%;
+  gap: 15%;
+
   display: flex;
-  width: 94%;
+  width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
 }
 .filter_bar {
-  margin-bottom: 20%;
-  margin-left: 5%;
-  width: 80%;
+  width: 100%;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -1057,6 +1078,7 @@ a{text-decoration: none;}
   margin-left: 0;
 }
 .info_bar{
+  margin-left: 5%;
   margin-bottom: -30%;
   position: relative;
   margin-top: 3%;
@@ -1083,15 +1105,27 @@ a{text-decoration: none;}
   
 }
 .card_2L{
-  width: 60%;
+  width: 85%;
+  margin: 2%;
 }
 .image_card_1{
   object-fit: cover;
-  height: 141px;
-  width: 100%;
+    height: 202px;
+    width: 100%;
 }
 .card_1L{
-  width: 60%;
+  width: 85%;
+}
+.title_card_1{
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.p_card{
+  margin-left:4%
+}
+.stars{
+  margin-left: 3.5%;
 }
 .parent_hebergement{
   width:100%;
@@ -1102,14 +1136,43 @@ a{text-decoration: none;}
   border-radius: 20px;
   align-items: center;
 }
+
+.image_card_2{
+  height: 221px;
+}
+.image_card_3h {
+  height: 244px;
+    width: 199px;
+}
 .main_act{
   flex-direction: column;
   align-items: center;
   margin-top: 10%;
   
 }
+.title_card_2{
+  width: 90%;
+  margin-left: 10%;
+}
+.p_cardv{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.stars_v{
+  margin-left: 8.5%;
+  margin-top: 70%
+}
+
+.stars_v2{
+  margin-top: 43%;
+  margin-left: 7.5%;
+
+}
+.Plusp{
+  display: none;
+}
 .footer{
-  height: 386px;
+  height: 532px;
 }
 .image_card_act{
   
@@ -1121,8 +1184,12 @@ a{text-decoration: none;}
 }
 
 .card_act{
-  margin-bottom: 10%;
-    width: 70%;
+  margin-top: 5%;
+
+  width: 80%;
+}
+.filter_title{
+  margin-left: 5%;
 }
 
 .filter_label{
@@ -1134,5 +1201,12 @@ a{text-decoration: none;}
 }
 .log_pop{
   margin-top: 3%;
+}
+.titre_infobar{
+  width: 80%;
+}
+.rec_act3{
+  margin-bottom: 20%;
+    margin-top: -12%;
 }
 }
